@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: normal-app
+  labels:
+    app: normal-app
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: normal-app
+
+  template:
+    metadata:
+      labels:
+        app: normal-app
+
+    spec:
+      containers:
+        - name: normal-app
+          image: nginx:alpine
+          ports:
+            - containerPort: 80

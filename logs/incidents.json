@@ -1,0 +1,82 @@
+[
+    {
+        "timestamp": "2026-10-03T18:16:26",
+        "event": "THREAT_DETECTED",
+        "process": "demo_attack",
+        "pid": 1961,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "CONTAINED_PROCESS_EXITED",
+        "system_status": "HEALTHY"
+    },
+    {
+        "timestamp": "2026-10-03T18:28:39",
+        "event": "THREAT_DETECTED",
+        "process": "demo_attack",
+        "pid": 2525,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "CONTAINED_PROCESS_EXITED",
+        "system_status": "HEALTHY"
+    },
+    {
+        "timestamp": "2026-10-05T06:40:43",
+        "event": "THREAT_DETECTED",
+        "process": "k8s_demo_attack",
+        "pid": 16175,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "KUBERNETES_REMEDIATION_FAILED",
+        "system_status": "DEGRADED"
+    },
+    {
+        "timestamp": "2026-10-05T06:47:42",
+        "event": "THREAT_DETECTED",
+        "process": "k8s_demo_attack",
+        "pid": 18318,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "KUBERNETES_REMEDIATION_FAILED",
+        "system_status": "DEGRADED"
+    },
+    {
+        "timestamp": "2026-10-05T06:48:12",
+        "event": "THREAT_DETECTED",
+        "process": "k8s_demo_attack",
+        "pid": 18445,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "KUBERNETES_REMEDIATION_FAILED",
+        "system_status": "DEGRADED"
+    },
+    {
+        "timestamp": "2026-10-05T06:56:11",
+        "event": "THREAT_DETECTED",
+        "process": "k8s_demo_attack",
+        "pid": 20839,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "KUBERNETES_POD_REMEDIATED",
+        "system_status": "HEALTHY"
+    },
+    {
+        "timestamp": "2026-10-06T17:00:33",
+        "event": "THREAT_DETECTED",
+        "process": "k8s_demo_attack",
+        "pid": 9608,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "KUBERNETES_POD_REMEDIATED",
+        "system_status": "HEALTHY"
+    },
+    {
+        "timestamp": "2026-10-07T04:45:56",
+        "event": "THREAT_DETECTED",
+        "process": "demo_attack",
+        "pid": 883,
+        "severity": "HIGH",
+        "reason": "Suspicious process detected",
+        "response": "CONTAINED_PROCESS_EXITED",
+        "system_status": "HEALTHY"
+    }
+]
